@@ -1,5 +1,41 @@
-*{box-sizing:border-box;}
-.header{
-    background-color:#120323;
-    color: #97bf04;
+*{box-sizing: border-box;
 }
+
+h1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;}
+
+header{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color:#120323;
+    color: #97bf04;}
+
+mainpic{margin: 0%, auto;
+align-items: center;
+text-align: center;}
+
+#banner{
+    border-radius: 10px;
+    display: block;
+    width: 900px;
+	height: 600px;
+    box-shadow: 0 0 25px 10px #000000;}
+
+mainstuff{margin: auto;
+    align-items: center;
+    text-align: center;}
+ul{
+    list-style: none;
+    display:flex;
+    align-content: center;}
+
+li{ text-align: center;}
+
+button{
+    border-radius: 10px;
+    background-color: #d9043d;
+    color: #000000;
+    padding: 1rem;}
+button:active{background-color: #97bf04;}
